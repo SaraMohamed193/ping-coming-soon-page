@@ -1,0 +1,127 @@
+/* font-family: 'Libre Franklin', sans-serif;
+    Primary- Blue:rgb(79, 125, 243), #	4F7DF3;
+    Secondary- Pale Blue:rgb(194, 211, 255),#C2D3FF;
+    Very Dark Blue: rgb(194, 211, 255),#C2D3FF;
+    Font size: 20px;*/
+
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        font-family: 'Libre Franklin', sans-serif;
+    }
+    header{
+        animation-name: animate-header;
+    
+        animation-duration: 2s ;
+        
+    }
+    
+    header h2{
+        color:#C2D3FF;
+        font-size:34px;
+    }
+    header p{
+        color:grey;
+        font-size: 20px;
+    }
+    header input{
+        width:270px;
+        height:40px;
+        border-radius:20px;
+        border:.5px solid grey;
+        padding:10px;
+        opacity: .7;
+    }
+    header button{
+        border-radius:20px !important;
+        width:130px;
+        height:40px;
+        color:white;
+        background-color:#4F7DF3;
+        border: none;
+        box-shadow: 3px 2px 9px 1px rgba(19, 76, 221, 0.5);
+        transition: .5s all ease-in-out;
+    }
+    header button:hover{
+        background-color:#C2D3FF;
+    }
+
+
+form{
+    width:50%;
+   
+}
+    #errMessage{
+        font-size:12px;
+        color:red;
+        margin-top:0;
+        padding-left:20px;
+        text-align: start;
+       
+        
+
+    }
+
+
+    main{
+        animation-name: animate-content;
+        animation-duration: 2s;
+        text-align:center;
+    }
+    main img{
+        width: 50%;
+        height:50%;
+    }
+    footer{
+        text-align: center;
+    }
+    .social-contact{
+        margin:40px;
+    }
+    .social-contact i{
+       
+        
+        width:25px;
+        height: 25px;
+        
+       
+        font-size: 20px;
+
+        
+    }
+    
+    .social-contact a{
+        margin:10px;
+        text-align: center;
+        
+        padding:12px;
+        border-radius:50%;
+        color:#4F7DF3;
+        transition:.6s all ease-in-out;
+       
+    }
+    .social-contact a:hover{
+        background-color:#4F7DF3;
+        color:white;
+    }
+
+    @keyframes animate-header{
+        0%{
+            transform: translateY(-500px)
+        }
+        100%{
+            transform: translateY(0)
+        }
+    }
+
+    @keyframes animate-content{
+        0%{
+            transform: translateY(500px)
+        }
+        100%{
+            transform: translateY(0)
+        }
+    }
+
