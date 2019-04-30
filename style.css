@@ -8,7 +8,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
+        font-size:18px;
         font-family: 'Libre Franklin', sans-serif;
     }
     header{
@@ -24,7 +24,7 @@
     }
     header p{
         color:grey;
-        font-size: 20px;
+        font-size: 16px;
     }
     header input{
         width:270px;
@@ -49,10 +49,6 @@
     }
 
 
-form{
-    width:50%;
-   
-}
     #errMessage{
         font-size:12px;
         color:red;
@@ -71,8 +67,8 @@ form{
         text-align:center;
     }
     main img{
-        width: 50%;
-        height:50%;
+        width: 50vw;
+        height:40vh;
     }
     footer{
         text-align: center;
@@ -106,6 +102,7 @@ form{
         background-color:#4F7DF3;
         color:white;
     }
+    
 
     @keyframes animate-header{
         0%{
@@ -123,5 +120,17 @@ form{
         100%{
             transform: translateY(0)
         }
+    }
+
+    @media screen and (max-width:960px){
+        header h2{
+            
+            font-size:24px;
+        }
+        .by p, a {
+            font-size:14px;
+                }
+
+                
     }
 

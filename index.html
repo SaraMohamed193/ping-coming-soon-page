@@ -12,21 +12,25 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container align-items-center">
+     
     <header class="d-flex flex-column  flex-sm-column flex-md-column align-items-center ">
        <img class="m-2" src="./images/logo.svg" alt="logo">
         <h2 class="m-2">We are launching<strong class="text-dark"> soon!</strong></h2>
         <p class="m-4"> Subscribe and get notified</p>
-        <form class="m-2">
+        <form class="m-2 ">
+                <div class="form-group">
             <input id="email"   type="email" name="email" placeholder="your email address">
            
             <button id="btn" class="m-2 submit" type="submit">Notify Me</button>
             <p id="errMessage"></p>
+                </div>
         </form>
 
 
     </header>
-    <main class="col">
+    </div>
+    <main class=" col col-sm-12">
         <img src="./images/illustration-dashboard.png" alt="dashboard">
     </main>
     <footer class="col">
@@ -38,7 +42,7 @@
         <div class="copy-rights">
             <p>© Copyright Ping. All rights reserved.</p>
         </div>
-        <div>
+        <div class="by">
                 <p>Challenge by <a href="/">Frontend Mentor</a>.Coded by <a href="/">SARA BORHAM</a>.</p>
         </div>
     </footer>
